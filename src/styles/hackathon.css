@@ -1,0 +1,103 @@
+.bigbox {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid cyan;
+  border-radius: 5px;
+  width: 380px;
+  color: white;
+  position: absolute;
+  left: 19%;
+  top: 30%;
+  transition: all 0.2s ease-in-out;
+  background-color: rgb(0, 0, 0);
+}
+
+.container3 {
+  display: none;
+}
+
+.box {
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  height: 228px;
+}
+
+.image {
+  height: 80%;
+  width: 80%;
+  display: none;
+}
+
+.box :hover {
+  cursor: pointer;
+}
+
+.heading {
+  padding: 5%;
+}
+
+.organizers {
+  font-weight: normal;
+  color: #ffffff9c;
+  font-size: 18px;
+  padding: 0% 15% 5% 6%;
+}
+
+.eligibility {
+  font-size: 18px;
+  padding: 0% 0% 5% 6%;
+}
+
+.days_left {
+  margin: 0 5% 10% 4%;
+  background-color: cyan;
+  color: black;
+  display: inline-block;
+  border-radius: 30px;
+  width: 33%;
+  height: 13%;
+  font-size: 17px;
+}
+
+.days_left li {
+  padding: 0;
+  margin: 4px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.start_end {
+  display: inline-block;
+  float: right;
+  padding: 2% 5% 0% 0%;
+  font-weight: bold;
+  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-size: 95%;
+  color: #ffffffe0;
+}
+
+.description {
+  color: #ffffffd6;
+  padding: 1% 5% 2% 8%;
+  margin-bottom: 3%;
+  font-size: 15px;
+}
+
+button {
+  width: 23%;
+  height: 12%;
+  background-color: #00ffffa3;
+  color: black;
+  border: 2px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px;
+  margin-left: 37%;
+  font-size: 16px;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #00ffffdb;
+}

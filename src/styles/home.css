@@ -1,0 +1,77 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+
+body {
+  background: #000428;
+  background: linear-gradient(to left, #004e92, #000428);
+  font-family: "Roboto", sans-serif;
+  min-height: 100vh;
+}
+
+.homePage {
+  min-height: 100vh;
+  width: 90vw;
+  margin: 0 auto;
+  /* border: 1px solid white; */
+  position: relative;
+}
+
+
+
+.slider {
+  height: 500px;
+  border: 1px solid yellow;
+  margin-top: 60px;
+  position: relative;
+}
+
+.hackathons {
+  /* border: 1px solid red; */
+  padding: 1.8rem 0;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.text {
+  font-size: 1.7rem;
+  color: #fdc830;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
+}
+
+.hack-container {
+  /* border: 1px solid white; */
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px 20px;
+}
+
+.hack-box {
+  width: 48%;
+  height: 15rem;
+  background: rgba(0, 0, 0, 0.6);
+  position: relative;
+  border-radius: 5px;
+}
+
+.seeAll {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: white;
+  padding-top: 10px;
+  font-size: 1.07rem;
+  transition: all 0.1s ease-in;
+}
+
+.seeAll:hover {
+  font-size: 1.1rem;
+  transition: all 0.1s ease-in;
+}

@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.indexPage {
+  height: 100vh;
+  width: 100vw;
+  background: #000428; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #004e92, #000428);
+  background: linear-gradient(to left, #004e92, #000428);
+  font-family: "Roboto", sans-serif;
+}
+
+.landingPage {
+  min-height: 100vh;
+  width: 90%;
+  margin: 0 auto;
+  /* border: 1px solid white; */
+  position: relative;
+}
+
+.logoContainer {
+  padding-top: 1.3rem;
+}
+
+.logo {
+  font-size: 1.6rem;
+  color: white;
+  /* border: 1px solid yellow; */
+  font-weight: 400;
+  letter-spacing: 3px;
+}
+
+.logo2 {
+  color: #f37335;
+}
+
+.rightleft-flex {
+  display: flex;
+  height: 85%;
+  margin-top: 5%;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.left {
+  margin-top: 4rem;
+  padding-bottom: 3rem;
+  width: 45%;
+  /* border: 1px solid pink; */
+}
+
+.text-flex {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.tagline {
+  font-size: 3rem;
+  font-weight: 500;
+  color: white;
+  z-index: 10;
+  margin: 0.7rem 0;
+  letter-spacing: 2px;
+}
+
+.tag1 {
+  width: 130%;
+}
+
+.tag2 {
+  font-weight: 700;
+  font-style: italic;
+  padding-bottom: 2rem;
+  color: #fdc830;
+}
+
+.cta {
+  width: 180px;
+  background: #fdc830;
+
+  font-size: 1.5rem;
+  padding: 10px;
+  text-align: center;
+  border-radius: 8px;
+  color: #000428;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.cta:hover {
+  background: -webkit-linear-gradient(to right, #f37335, #fdc830);
+  background: linear-gradient(to right, #f37335, #fdc830);
+  box-shadow: 0px 0px 5px #f37335;
+  transition: all 0.1s ease-in-out;
+}
+
+.para {
+  line-height: 2rem;
+  letter-spacing: 1px;
+  font-size: 1.4rem;
+  color: white;
+  opacity: 0.9;
+}
+
+.right {
+  width: 45%;
+  /* border: 1px solid white; */
+}
+
+.right > img {
+  width: 95%;
+}
+
+.copyright {
+  position: absolute;
+  bottom: 1rem;
+  right: 0;
+  color: #000000;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 960px) {
+  .right {
+    display: none;
+  }
+
+  .left {
+    height: 100%;
+    width: 100%;
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .tagline {
+    font-size: 2.3rem;
+  }
+  .tag1 {
+    width: 100%;
+  }
+  .cta {
+    font-size: 1.2rem;
+  }
+  .logo {
+    font-size: 1.2rem;
+  }
+  .para {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .tagline {
+    font-size: 1.8rem;
+  }
+  .left {
+    margin-top: 5rem;
+  }
+  .copyright {
+    font-size: 0.8rem;
+  }
+}
