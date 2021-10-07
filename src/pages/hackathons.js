@@ -16,7 +16,7 @@ const hackathonsPage = () => {
     return (
         <div>
             <Navbar hackathon={active.style} />
-            <div className="container-lg d-flex justify-content-around align-self-stretch flex-wrap" style={{ marginTop: '60px' }}>
+            <div className="container-lg d-flex justify-content-around align-self-stretch flex-wrap cards" style={{ marginTop: '60px' }}>
 
                 {
                     devfolio.map((hack) => {

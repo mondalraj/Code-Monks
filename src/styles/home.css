@@ -19,8 +19,6 @@ body {
   position: relative;
 }
 
-
-
 .slider {
   height: 500px;
   border: 1px solid yellow;
@@ -74,4 +72,10 @@ body {
 .seeAll:hover {
   font-size: 1.1rem;
   transition: all 0.1s ease-in;
+}
+
+@media screen and (max-width: 700px) {
+  .cards {
+    margin-top: 240px !important;
+  }
 }
