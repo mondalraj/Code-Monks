@@ -4,8 +4,8 @@ import Navbar from '../components/Navbar'
 const eventsPage = () => {
     const active = {
         style: {
-            backgroundColor: 'rgba(253, 200, 48, 0.7)',
-            color: 'black'
+            backgroundColor: 'rgba(255, 187, 0, 0.801)',
+            color: 'black !important'
         }
     }
     return (

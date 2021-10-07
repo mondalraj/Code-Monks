@@ -1,9 +1,9 @@
 .card {
   backdrop-filter: blur(16px) saturate(180%);
   -webkit-backdrop-filter: blur(16px) saturate(180%);
-  background-color: rgba(224, 224, 227, 0.856);
+  background-color: rgba(0, 0, 0, 0.856);
   border-radius: 12px;
-  border: 1px solid rgba(255, 255, 255, 0.377);
+  border: 1px solid rgba(56, 56, 56, 0.377);
   transition: all 0.3s ease;
 }
 
@@ -13,7 +13,11 @@
   transition: all 0.3s ease;
 }
 
-@media screen and (max-width: 760px) {
+.organizer {
+  color: #00668d !important;
+}
+
+@media screen and (max-width: 960px) {
   .card {
     width: 45% !important;
   }

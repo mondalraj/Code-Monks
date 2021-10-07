@@ -8,7 +8,7 @@ const hackathonsPage = () => {
 
     const active = {
         style: {
-            backgroundColor: 'rgba(253, 200, 48, 0.7)',
+            backgroundColor: 'rgba(255, 187, 0, 0.801)',
             color: 'black !important'
         }
     }
