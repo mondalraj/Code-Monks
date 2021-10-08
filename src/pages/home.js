@@ -16,7 +16,7 @@ const homePage = () => {
                     <Link to="/events" className="nav-item nav-item-4">Events</Link>
                 </div>
             </div> */}
-            <div className="hackSection container-lg" style={{ marginTop: "70px", height: '75vh', color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div className="hackSection container-lg" style={{ marginTop: "70px", height: '60vh', maxHeight: '600px', color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <div className="content" style={{}}>
                     <h1 style={{ fontSize: '3rem', marginBottom: '2rem', fontFamily: "Gemunu Libre", color: 'rgb(255, 74, 255)' }}>Build innovative and win prizes!</h1>
                     <h5>Hackathons are a great place to learn, build, discover new ideas and make new friends. Dive right in!</h5>
@@ -26,7 +26,7 @@ const homePage = () => {
             </div>
 
 
-            <div className="hackSection container-lg mobile-left" style={{ marginTop: "60px", height: '75vh', color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div className="hackSection container-lg mobile-left" style={{ marginTop: "60px", height: '60vh', maxHeight: '600px', color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <img style={{ width: '43%', borderRadius: '20px', marginRight: '20px' }} src="https://jnswire.s3.amazonaws.com/jns-media/e4/fe/465159/shutterstock_Coding_screen.jpg" alt="" />
                 <div className="content" style={{ textAlign: 'left' }}>
                     <h1 style={{ fontSize: '3rem', marginBottom: '2rem', fontFamily: "Gemunu Libre", color: 'rgb(255, 74, 255)' }}>Practice your skills in Competitive Coding</h1>
@@ -34,7 +34,7 @@ const homePage = () => {
                     <button className="btn btn-warning" style={{ fontSize: '1.2rem', marginTop: '2rem' }}><Link style={{ color: 'black !important' }} to="/contests">View Contests</Link></button>
                 </div>
             </div>
-            <div className="hackSection container-lg" style={{ marginTop: "60px", height: '75vh', color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div className="hackSection container-lg" style={{ marginTop: "60px", height: '60vh', maxHeight: '600px', color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <div className="content" style={{}}>
                     <h1 style={{ fontSize: '3rem', marginBottom: '2rem', fontFamily: "Gemunu Libre", color: 'rgb(255, 74, 255)' }}>Have a look on some cool internships.</h1>
                     <h5>Bring your insight, imagination, and a healthy disregard for the impossible. Together, we can build for everyone. Here you can taste of the various internships.</h5>
@@ -42,7 +42,7 @@ const homePage = () => {
                 </div>
                 <img style={{ width: '43%', borderRadius: '20px', marginLeft: '20px' }} src="https://thumbs.dreamstime.com/b/internship-list-pros-written-note-internship-list-pros-written-notepad-122225688.jpg" alt="" />
             </div>
-            <div className="hackSection container-lg mobile-left" style={{ marginTop: "60px", height: '75vh', color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <div className="hackSection container-lg mobile-left" style={{ marginTop: "60px", height: '60vh', maxHeight: '600px', color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <img style={{ width: '43%', borderRadius: '20px', marginRight: '20px' }} src="https://assets.vice.com/content-images/contentimage/123472/_DSC3283_033.jpg" alt="" />
                 <div className="content" style={{ textAlign: 'left' }}>
                     <h1 style={{ fontSize: '3rem', marginBottom: '2rem', fontFamily: "Gemunu Libre", color: 'rgb(255, 74, 255)' }}>Participate in various coding Events.</h1>
