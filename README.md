@@ -5,7 +5,7 @@
 Students generally tend to miss major hackathons / events / contents and mainly the internship opportunities . Our project helps coding enthusiasts to keep track of all the major events on our website . We will try to build as user friendly website as possible.
 
 ## Idea  
-A simple website that will tell and notify the users about the ongoing / present programs / contests related to the coding domain.  
+A simple website that will tell and notify the users about the ongoing / present programs / contests / hackathons / internships related to the coding domain.  
 Other website don’t cover all the coding related events. So, we  try to cover them in our website.  
 We will also try to go through as many coding websites as possible to gather all the possible information on a single platform.
 
@@ -17,6 +17,7 @@ Will have information related to
      4. Coding events  
      5. Student Community Programmes  
 
+![Hackathon Page](images/hackathonPage.png) 
 
 ## Tech Stack Used  
 **React.js**, **Node.js**, Gatsby, Bootstrap, React-bootstrap, JSON
