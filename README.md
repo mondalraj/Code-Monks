@@ -30,4 +30,4 @@ Will have information related to
 [Rajib Mondal](https://github.com/mondalraj)            
 [Hitansh Gupta](https://github.com/Hitansh1G)            
 [Dhruv Trehan](https://github.com/DhruvTrehan29)  
-[Akansha Aggarwal](https://github.com/DhruvTrehan29)
+[Akansha Aggarwal](https://github.com/akansha2002)
