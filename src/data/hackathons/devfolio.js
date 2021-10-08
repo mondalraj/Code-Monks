@@ -1,50 +1,91 @@
 export const devfolio = [
     {
-        name: "Live The Code",
-        organizer: "Codechef ADGITM",
-        date: "3-8 Oct, 2021",
-        participants: 2300,
-        link: "https://livethecode.tech/",
-        topics: "open innovation, blockchain, cyber security, AR/VR",
-        id: 1
+        name: 'EconHacks Bangalore',
+        date: 'October 9th, 2021',
+        organizer: 'Devfolio',
+        link: 'https://www.econhacksbangalore.live/'
     },
     {
-        name: "Hacktober Fest",
-        organizer: "Digital Ocean",
-        date: "1-31 Oct, 2021",
-        participants: 25300,
-        link: "https://hacktoberfest.digitalocean.com/",
-        id: 2
+        name: 'Free Your Data!',
+        date: 'September 24th, 2021',
+        organizer: 'Devfolio',
+        link: 'https://free-your-data.devfolio.co/'
     },
     {
-        name: "Hacktober Fest",
-        organizer: "Digital Ocean",
-        date: "1-31 Oct, 2021",
-        participants: 25300,
-        link: "https://hacktoberfest.digitalocean.com/",
-        id: 2
+        name: 'Hacknovate 3.0',
+        date: 'October 16th, 2021',
+        organizer: 'Devfolio',
+        link: 'https://hacknovate.tech/'
     },
     {
-        name: "Hacktober Fest",
-        organizer: "Digital Ocean",
-        date: "1-31 Oct, 2021",
-        participants: 25300,
-        link: "https://hacktoberfest.digitalocean.com/",
-        id: 2
+        name: 'Hack tHe builD 2.0',
+        date: 'October 14th, 2021',
+        organizer: 'Devfolio',
+        link: 'https://www.hackthebuild.com/'
     },
     {
-        name: "Hacktober Fest",
-        organizer: "Digital Ocean",
-        date: "1-31 Oct, 2021",
-        participants: 25300,
-        link: "https://hacktoberfest.digitalocean.com/",
-        id: 2
+        name: 'HexaHack',
+        date: 'October 15th, 2021',
+        organizer: 'Devfolio',
+        link: 'https://hexahack.tech/'
     },
     {
-        name: "Hacktober Fest",
-        organizer: "Digital Ocean",
-        date: "1-31 Oct, 2021",
-        participants: 25300,
-        link: "https://hacktoberfest.digitalocean.com/"
-    }
-];
+        name: 'T-HACKS 4.0',
+        date: 'October 16th, 2021',
+        organizer: 'Devfolio',
+        link: 'https://technoraxv-7.tech/'
+    },
+    {
+        name: 'Start-O-Thon',
+        date: 'October 16th, 2021',
+        organizer: 'Devfolio',
+        link: 'https://start-o-thon.ieee-cis-sbc.org/'
+    },
+    {
+        name: 'Hackout 2021',
+        date: 'October 29th, 2021',
+        organizer: 'Devfolio',
+        link: 'https://www.hackout.io/'
+    },
+    {
+        name: 'Version Beta 4.0',
+        date: 'October 30th, 2021',
+        organizer: 'Devfolio',
+        link: 'https://www.versionbeta.istemanit.in/'
+    },
+    {
+        name: 'BIT BY BIT',
+        date: 'October 19th, 2021',
+        organizer: 'Devfolio',
+        link: 'https://iiitbh.tech/'
+    },
+    {
+        name: 'Hacktober Hackathon',
+        date: 'October 23rd, 2021',
+        organizer: 'Devfolio',
+        link: 'https://hacktober.xyz/'
+    },
+    {
+        name: "ElytraHack'21",
+        date: 'October 29th, 2021',
+        organizer: 'Devfolio',
+        link: 'https://elytrahack.matrixio.tech/'
+    },
+    {
+        name: 'HackNITR 3.0',
+        date: 'October 29th, 2021',
+        organizer: 'Devfolio',
+        link: 'https://hacknitr.tech/'
+    },
+    {
+        name: 'Hackmafest',
+        date: 'October 25th, 2021',
+        organizer: 'Devfolio',
+        link: 'https://hackmafest.tech/'
+    },
+    {
+        name: 'Script Winter Of Code',
+        date: 'December 1st, 2021',
+        organizer: 'Devfolio',
+        link: 'https://swoc.scriptindia.org/'
+    }];

@@ -3,20 +3,23 @@ import "bootstrap/dist/css/bootstrap.css";
 import { Card } from 'react-bootstrap'
 import '../styles/Card.css'
 
-const ContestCard = () => {
+const ContestCard = (props) => {
 
+    const { name, organizer, date, time, duration, link } = props.contest;
 
     return (
         <Card className="card" style={{ width: '30%', margin: '10px' }}>
-            <a href="" style={{
+            <a href={link} style={{
                 textDecoration: 'none'
             }}>
                 <Card.Body >
-                    <Card.Title style={{ color: 'rgba(255, 100, 255)' }}>Codechef Long Challenge</Card.Title>
-                    <Card.Subtitle className="mb-2 organizer" >By Codechef</Card.Subtitle>
-                    <Card.Text> Date/Time: 5 Oct, 2021  5:00PM
+                    <Card.Title style={{ color: 'rgba(255, 100, 255)' }}>{name}</Card.Title>
+                    <Card.Subtitle className="mb-2 organizer" >By: {" " + organizer}</Card.Subtitle>
+                    <Card.Text> Date: {" " + date}
                     </Card.Text>
-                    <Card.Text> Duration : 90 min
+                    <Card.Text> Time: {" " + time}
+                    </Card.Text>
+                    <Card.Text> Duration : {" " + duration}
                     </Card.Text>
                 </Card.Body>
             </a >
