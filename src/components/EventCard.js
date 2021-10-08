@@ -5,7 +5,7 @@ import '../styles/Card.css'
 
 const EventCard = (props) => {
 
-    const { name, date, link } = props.event;
+    const { name, date, organizer, link } = props.event;
 
     return (
         <Card className="card" style={{ width: '30%', margin: '10px' }}>
@@ -14,6 +14,7 @@ const EventCard = (props) => {
             }}>
                 <Card.Body >
                     <Card.Title style={{ color: 'rgba(255, 100, 255)' }}>{name}</Card.Title>
+                    <Card.Subtitle className="mb-2 organizer" >{"By: " + organizer}</Card.Subtitle>
                     <Card.Text> Date: {" " + date}
                     </Card.Text>
                 </Card.Body>

@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import ContestCard from '../components/ContestCard';
 import { codechef } from '../data/contests/codechef'
 import { kickstart } from '../data/contests/kickstart'
+import { prepbytes } from '../data/contests/prepbytes'
 
 
 const contestsPage = () => {
@@ -30,6 +31,16 @@ const contestsPage = () => {
                 }
                 {
                     codechef.map((contest) => {
+                        return (
+                            <ContestCard
+                                contest={contest}
+                                key={contest.id}
+                            />
+                        )
+                    })
+                }
+                {
+                    prepbytes.map((contest) => {
                         return (
                             <ContestCard
                                 contest={contest}
