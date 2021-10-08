@@ -12,7 +12,7 @@ const homePage = () => {
     return (
         <div className="homePage">
             <Navbar />
-
+            
         </div>
     )
 }
