@@ -1,5 +1,7 @@
 # Code Monks Web App  
-  ![Home Page](images/codeMonks-homePage.png)  
+
+ ![Home Page](images/codeMonks-homePage.png)  
+ 
   
 ## Problem Statement  
 Students generally tend to miss major hackathons / events / contents and mainly the internship opportunities . Our project helps coding enthusiasts to keep track of all the major events on our website . We will try to build as user friendly website as possible.
@@ -30,4 +32,7 @@ Will have information related to
 [Rajib Mondal](https://github.com/mondalraj)            
 [Hitansh Gupta](https://github.com/Hitansh1G)            
 [Dhruv Trehan](https://github.com/DhruvTrehan29)  
-[Akansha Aggarwal](https://github.com/akansha2002)
+[Akansha Aggarwal](https://github.com/akansha2002)  
+
+
+Demo Video - youtube.com/watch?v=c8OiU27Mh3A&list=LL
