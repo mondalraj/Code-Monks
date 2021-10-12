@@ -4,18 +4,13 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '../styles/home.css'
 import { Link } from 'gatsby';
 
-const homePage = () => {
+const HomePage = () => {
+
+    
+
     return (
         <div className="homePage">
             <Navbar />
-            {/* <div className="home-menu">
-                <div className="nav-items">
-                    <Link to="/hackathons" className="nav-item nav-item-1">Hackathons</Link>
-                    <Link to="/contests" className="nav-item nav-item-2">CP contests</Link>
-                    <Link to="/internships" className="nav-item nav-item-3">Internships</Link>
-                    <Link to="/events" className="nav-item nav-item-4">Events</Link>
-                </div>
-            </div> */}
             <div className="hackSection container-lg" style={{ marginTop: "70px", minHeight: '400px', height: '60vh', maxHeight: '600px', color: 'white', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
                 <div className="content" style={{}}>
                     <h1 style={{ fontSize: '3rem', marginBottom: '2rem', fontFamily: "Gemunu Libre", color: 'rgb(255, 74, 255)' }}>Build innovative and win prizes!</h1>
@@ -54,4 +49,4 @@ const homePage = () => {
     )
 }
 
-export default homePage
+export default HomePage
