@@ -1,15 +1,18 @@
 import React from 'react'
 import { useEffect } from 'react'
-import { Link } from 'gatsby'
+import Login from '../components/Login'
 import '../styles/index.css'
 
 const IndexPage = () => {
+
+
   useEffect(() => {
     const appPaymentPointer = "$ilp.uphold.com/8fJNiYmhgXE6";
     var metaTag = document.createElement("meta");
     metaTag.setAttribute("name", "monetization");
     metaTag.content = appPaymentPointer;
     document.getElementsByTagName("head")[0].appendChild(metaTag);
+
   }, []);
 
   return (
@@ -31,7 +34,8 @@ const IndexPage = () => {
                 Get updates about reputed hackathons, contests, internships,
                 events etc...
               </div>
-              <Link to="/home" className="cta">Get Started</Link>
+              {/* <Link to="/home" className="cta">Get Started</Link> */}
+              <Login />
             </div>
           </div>
           <div className="right">
