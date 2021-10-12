@@ -22,7 +22,7 @@ Will have information related to
 ![Hackathon Page](images/hackathonPage.png) 
 
 ## Tech Stack Used  
-**React.js**, **Node.js**, Gatsby, Bootstrap, React-bootstrap, JSON
+**React.js**, **Node.js**, Gatsby, Bootstrap, React-bootstrap, JSON, Coil API, SawoLabs API
 
 ## Impact on society  
  1. Our project will impact the coding students who have the capability but aren’t able to get the best just because of missing some awesome opportunities. 
