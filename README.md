@@ -28,11 +28,4 @@ Will have information related to
  1. Our project will impact the coding students who have the capability but aren’t able to get the best just because of missing some awesome opportunities. 
  2. Students who have just starting coding and are looking for hackathons to build  expertise,  and are already experienced coders who are looking for good internships or job opportunities . 
 
-## Contributors  
-[Rajib Mondal](https://github.com/mondalraj)            
-[Hitansh Gupta](https://github.com/Hitansh1G)            
-[Dhruv Trehan](https://github.com/DhruvTrehan29)  
-[Akansha Aggarwal](https://github.com/akansha2002)  
-
-
 Demo Video - youtube.com/watch?v=c8OiU27Mh3A&list=LL
